@@ -1130,15 +1130,27 @@ export default function LandingPage() {
 
             <div className="relative mt-8 flex flex-wrap justify-center gap-3 sm:mt-10 sm:gap-4">
 
-              <button
-                className="rounded-full border border-neutral-300 bg-pink-300/80 px-6 py-3 font-medium text-pink-950 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:bg-white hover:shadow-md sm:px-7 sm:py-3.5"
-              >
-                Browse Components
-              </button>
+              <a
+  href="/buttons"
+  className="inline-block"
+>
+  <button
+    className="rounded-full border border-neutral-300 bg-pink-300/80 px-6 py-3 font-medium text-pink-950 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:bg-white hover:shadow-md sm:px-7 sm:py-3.5"
+  >
+    Browse Components
+  </button>
+</a>
 
-              <button className="rounded-full border border-neutral-300 bg-white px-6 py-3 font-medium transition hover:-translate-y-0.5 hover:border-cyan-300 hover:shadow-md">
-                View on GitHub
-              </button>
+<a
+  href="https://github.com/pooj0901"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block"
+>
+  <button className="rounded-full border border-neutral-300 bg-white px-6 py-3 font-medium transition hover:-translate-y-0.5 hover:border-cyan-300 hover:shadow-md">
+    View on GitHub
+  </button>
+</a>
 
             </div>
 

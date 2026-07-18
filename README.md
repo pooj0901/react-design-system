@@ -3,10 +3,8 @@ Design System — Component Library
 A production-ready design system built with React 18, Tailwind CSS, and Figma. 8 fully accessible components with design tokens, documentation, and real-world usage examples.
 
 
-Live Demo (https://your-vercel-url.vercel.app)
+Live Demo : "https://your-vercel-url.vercel.app"
 Figma File : "https://www.figma.com/design/q3ND2vCKyM6q9ckcTkCd1E/Design-Systems?t=3eeIRiZMSmXrxYRf-1"
-Portfolio (https://pooja-portfoliowebsite.vercel.app)
-
 
 
 Design System Preview
@@ -47,7 +45,7 @@ JetBrains Mono    Monospace font for code and data
 
 ```bash
 # Clone the repo
-git clone https://github.com/pooj0901/design-system.git
+git clone https://github.com/pooj0901/react-design-system.git
 cd design-system
 
 # Install dependencies
@@ -118,7 +116,9 @@ Same token names — `primary-600` in Figma = `primary-600` in Tailwind
 Same variant names— "Primary / Medium / Default" = `variant="primary" size="md"`
 Same component structure — every Figma component has a code equivalent
 
-Open Figma file →  "https://www.figma.com/design/sSl4TQO9AymSjGplsVTPF7"
+Open Figma file →  "https://www.figma.com/design/q3ND2vCKyM6q9ckcTkCd1E/Design-Systems?t=3eeIRiZMSmXrxYRf-1"
+
+
 Pages:
 
 🎨 Cover          ← overview and stats
@@ -137,18 +137,6 @@ All components are designed with WCAG 2.1 AA compliance in mind:
 - ✅ No motion without preference check (`prefers-reduced-motion`)
 
 
-## Screenshots
-
-| Documentation site | Components page | Figma file |
-|---|---|---|
-| ![Docs](./screenshots/docs.png) | ![Components](./screenshots/components.png) | ![Figma](./screenshots/figma.png) |
-
-
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-pooja--portfoliowebsite.vercel.app-blue?style=flat-square)](https://pooja-portfoliowebsite.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-pooja--daki-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/pooja-daki)
-[![GitHub](https://img.shields.io/badge/GitHub-pooj0901-181717?style=flat-square&logo=github)](https://github.com/pooj0901)
-[![Email](https://img.shields.io/badge/Email-pujadaki18@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:pujadaki18@gmail.com)
 
 
 ## License

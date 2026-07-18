@@ -103,7 +103,7 @@ export function TooltipPage() {
             <h3 className="mb-4 font-semibold text-slate-900">Recommended</h3>
             <ul className="space-y-3 text-sm leading-7 text-slate-600">
               <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />Icon-only buttons → explain the action</li>
-              <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />Truncated text → show the full value</li>
+              <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />Truncated text show the full value</li>
               <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />Disabled controls → explain why disabled</li>
               <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />Abbreviations → spell out the full term</li>
             </ul>
