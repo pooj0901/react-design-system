@@ -19,12 +19,12 @@ export function Topbar() {
      
       <div className="flex items-center gap-3">
 
-        <button className="flex h-10 items-center gap-2 rounded-lg border border-slate-200 px-4 text-sm font-medium transition hover:bg-slate-100">
+        <button className="flex h-10 items-center gap-2 rounded-[12px] border border-slate-200 px-4 text-sm font-medium transition hover:bg-slate-100">
           <FaGithub size={18} />
           GitHub
         </button>
 
-        <button className="flex h-10 items-center gap-2 rounded-lg border border-slate-200 px-4 text-sm font-medium transition hover:bg-slate-100">
+        <button className="flex h-10 items-center gap-2 rounded-[12px] border border-slate-200 px-4 text-sm font-medium transition hover:bg-slate-100">
           <FaFigma size={18} />
           Figma
         </button>

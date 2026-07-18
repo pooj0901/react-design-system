@@ -159,8 +159,7 @@ export function AppRouter() {
           />
 
           <Route
-            path="/t
-            ooltip"
+            path="/tooltip"
             element={<TooltipPage />}
           />
 
