@@ -1,0 +1,24 @@
+[data-theme="dark"] {
+  /* Primary stays the same */
+
+  --color-white: #0f172a;
+  --color-black: #ffffff;
+
+  /* Gray Scale (Dark Theme) */
+  --color-gray-50: #020617;
+  --color-gray-100: #0f172a;
+  --color-gray-200: #1e293b;
+  --color-gray-300: #334155;
+  --color-gray-400: #475569;
+  --color-gray-500: #64748b;
+  --color-gray-600: #94a3b8;
+  --color-gray-700: #cbd5e1;
+  --color-gray-800: #e2e8f0;
+  --color-gray-900: #f8fafc;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 8px 20px rgba(0,0,0,.45);
+  --shadow-lg: 0 20px 40px rgba(0,0,0,.5);
+
+}

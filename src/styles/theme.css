@@ -1,0 +1,31 @@
+:root {
+  /* Brand */
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+
+  /* Semantic */
+  --success: #16a34a;
+  --danger: #dc2626;
+  --warning: #d97706;
+
+  /* Surface */
+  --background: #f8fafc;
+  --surface: #ffffff;
+
+  /* Text */
+  --text: #0f172a;
+  --text-muted: #64748b;
+
+  /* Border */
+  --border: #e2e8f0;
+
+  /* Radius */
+  --radius: 10px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.05);
+  --shadow-md: 0 8px 20px rgb(0 0 0 / 0.08);
+
+  /* Transition */
+  --transition: 200ms ease;
+}
