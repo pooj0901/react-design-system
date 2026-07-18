@@ -39,7 +39,7 @@ export function RadiusPage() {
 
           <div className="rounded-2xl border border-slate-200 border-l-4 border-l-indigo-500 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
 
-            <div className="mb-5 flex h-20 items-center justify-center rounded-lg bg-blue-600 text-white">
+            <div className="mb-5 flex h-20 items-center justify-center rounded-[6px] bg-blue-600 text-white">
               Medium
             </div>
 

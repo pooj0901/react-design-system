@@ -171,7 +171,7 @@ export function ResearchPage() {
             >
               <div className="flex items-start gap-3">
                 <div
-                  className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-xs font-bold text-white ${system.badgeClass}`}
+                  className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-[12px] text-xs font-bold text-white ${system.badgeClass}`}
                 >
                   {system.code}
                 </div>

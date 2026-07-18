@@ -70,7 +70,7 @@ export function Topbar({ onMenuClick }: TopbarProps) {
           href="https://github.com/pooj0901"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex h-10 items-center justify-center rounded-lg border border-slate-200 px-3 transition hover:bg-slate-100 md:gap-2 md:px-4"
+          className="flex h-10 items-center justify-center rounded-[12px] border border-slate-200 px-3 transition hover:bg-slate-100 md:gap-2 md:px-4"
         >
           <FaGithub size={18} />
           <span className="hidden md:inline text-sm font-medium">
@@ -82,7 +82,7 @@ export function Topbar({ onMenuClick }: TopbarProps) {
           href="https://www.figma.com/design/q3ND2vCKyM6q9ckcTkCd1E/Design-Systems?node-id=392-2&t=3eeIRiZMSmXrxYRf-1"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex h-10 items-center justify-center rounded-lg border border-slate-200 px-3 transition hover:bg-slate-100 md:gap-2 md:px-4"
+          className="flex h-10 items-center justify-center rounded-[12px] border border-slate-200 px-3 transition hover:bg-slate-100 md:gap-2 md:px-4"
         >
           <FaFigma size={18} />
           <span className="hidden md:inline text-sm font-medium">

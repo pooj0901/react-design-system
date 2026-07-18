@@ -23,7 +23,7 @@ function MockListItem({
   return (
     <div className="flex h-14 items-center gap-3 rounded-[8px] border border-slate-200 bg-white px-4">
       <div
-        className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-xs font-semibold ${colorMap[color]}`}
+        className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-[8px] text-xs font-semibold ${colorMap[color]}`}
       >
         {label.charAt(0)}
       </div>
@@ -71,7 +71,7 @@ export function SpacingPage() {
 
           <div className="rounded-[12px] border border-slate-200 bg-white p-6">
 
-            <div className="mb-5 flex h-16 items-center justify-center rounded-lg bg-blue-100">
+            <div className="mb-5 flex h-16 items-center justify-center rounded-[12px] bg-blue-100">
               <div className="h-2 w-10 rounded bg-blue-600"></div>
             </div>
 
@@ -88,7 +88,7 @@ export function SpacingPage() {
 
           <div className="rounded-[12px] border border-slate-200 bg-white p-6">
 
-            <div className="mb-5 flex h-16 items-center justify-center rounded-lg bg-green-100">
+            <div className="mb-5 flex h-16 items-center justify-center rounded-[12px] bg-green-100">
               <div className="h-8 w-8 rounded border-4 border-green-600"></div>
             </div>
 
@@ -105,7 +105,7 @@ export function SpacingPage() {
 
           <div className="rounded-[12px] border border-slate-200 bg-white p-6">
 
-            <div className="mb-5 flex h-16 items-center justify-center rounded-lg bg-purple-100">
+            <div className="mb-5 flex h-16 items-center justify-center rounded-[12px] bg-purple-100">
               <div className="flex gap-2">
                 <div className="h-6 w-6 rounded bg-purple-500"></div>
                 <div className="h-6 w-6 rounded bg-purple-500"></div>
@@ -244,71 +244,60 @@ export function SpacingPage() {
           />
 
         </div>
-
-      </Section>
-
+</Section>
       <Section
-        title="Vertical Spacing"
-        description="Maintain consistent spacing between related content."
-      >
+  title="Vertical Spacing"
+  description="Maintain consistent spacing between related content."
+>
+  <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
 
-        <div className="space-y-10">
+    <div className="rounded-[12px] border border-slate-200 bg-white p-8">
+      <h3 className="text-2xl font-semibold">
+        Dashboard Overview
+      </h3>
 
-          <div className="rounded-[12px] border border-slate-200 bg-white p-8">
+      <p className="mt-4 text-slate-600">
+        Consistent spacing improves readability
+        and creates clear visual hierarchy.
+      </p>
 
-            <h3 className="text-2xl font-semibold">
-              Dashboard Overview
-            </h3>
+      <button className="mt-8 rounded-[12px] bg-blue-600 px-5 py-3 font-medium text-white">
+        Get Started
+      </button>
+    </div>
 
-            <p className="mt-4 text-slate-600">
-              Consistent spacing improves readability
-              and creates clear visual hierarchy.
-            </p>
+    <div className="rounded-[12px] border border-slate-200 bg-white p-8">
+      <h3 className="mb-6 text-lg font-semibold">
+        Stacked Elements
+      </h3>
 
-            <button className="mt-8 rounded-lg bg-blue-600 px-5 py-3 font-medium text-white">
-              Get Started
-            </button>
+      <div className="flex flex-col">
+        <MockListItem
+          label="Revenue"
+          sublabel="$48,200 this month"
+          color="blue"
+        />
 
-          </div>
+        <GapAnnotation label="space-4 · 16px gap" />
 
-          <div className="rounded-[12px] border border-slate-200 bg-white p-8">
+        <MockListItem
+          label="Active Users"
+          sublabel="2,340 online now"
+          color="green"
+        />
 
-            <h3 className="mb-6 text-lg font-semibold">
-              Stacked Elements
-            </h3>
+        <GapAnnotation label="space-4 · 16px gap" />
 
-            <div className="flex flex-col">
+        <MockListItem
+          label="Conversion Rate"
+          sublabel="4.2% this week"
+          color="purple"
+        />
+      </div>
+    </div>
 
-              <MockListItem
-                label="Revenue"
-                sublabel="$48,200 this month"
-                color="blue"
-              />
-
-              <GapAnnotation label="space-4 · 16px gap" />
-
-              <MockListItem
-                label="Active Users"
-                sublabel="2,340 online now"
-                color="green"
-              />
-
-              <GapAnnotation label="space-4 · 16px gap" />
-
-              <MockListItem
-                label="Conversion Rate"
-                sublabel="4.2% this week"
-                color="purple"
-              />
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </Section>
-
+  </div>
+</Section>
       <Section
         title="Grid Spacing"
         description="Use consistent gaps between cards and layout elements."

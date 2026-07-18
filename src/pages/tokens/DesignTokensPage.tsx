@@ -11,9 +11,9 @@ export function DesignTokensPage() {
     count: "3 groups",
     preview: (
       <div className="flex gap-2">
-        <div className="h-8 w-8 rounded-lg bg-blue-600" />
-        <div className="h-8 w-8 rounded-lg bg-yellow-300" />
-        <div className="h-8 w-8 rounded-lg bg-slate-300" />
+        <div className="h-8 w-8 rounded-[8px] bg-blue-600" />
+        <div className="h-8 w-8 rounded-[8px] bg-yellow-300" />
+        <div className="h-8 w-8 rounded-[8px] bg-slate-300" />
       </div>
     ),
   },
