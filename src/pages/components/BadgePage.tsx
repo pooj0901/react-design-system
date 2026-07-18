@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { Badge } from "../../components/ui/badge";
 
 import { ComponentPage } from "../../components/docs/ComponentPage";
-import { ComponentPreview } from "../../components/docs/ComponentPreview";
+
 import { Section } from "../../components/docs/Section";
 import { CodeBlock } from "../../components/docs/CodeBlock";
 import { PropsTable } from "../../components/docs/PropsTable";
