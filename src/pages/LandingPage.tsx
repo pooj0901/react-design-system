@@ -87,7 +87,7 @@ export default function LandingPage() {
     };
   }, []);
 
-  // Close mobile menu on resize back to desktop
+
   useEffect(() => {
     const onResize = () => {
       if (window.innerWidth >= 1024) setMenuOpen(false);
@@ -202,9 +202,11 @@ export default function LandingPage() {
           Design System
         </h1>
 
-        <p className="text-[10px] text-neutral-500 sm:text-xs">
-          Figma → Code
-        </p>
+        <p className="flex items-center gap-1 text-[10px] text-neutral-500 sm:text-xs">
+  <span>Figma</span>
+  <ArrowRight className="h-3 w-3" />
+  <span>Code</span>
+</p>
       </div>
     </div>
 
@@ -316,15 +318,21 @@ export default function LandingPage() {
             interfaces
             <br />
             from{" "}
-            <span
-              style={{
-                background: "linear-gradient(90deg,#EC4899,#22D3EE)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
-              Figma → Code
-            </span>
+           <span
+  className="inline-flex items-center gap-2"
+  style={{
+    background: "linear-gradient(90deg,#EC4899,#22D3EE)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+  }}
+>
+  <span>Figma</span>
+  <ArrowRight
+    className="h-10 w-10"
+    style={{ color: "#8B5CF6" }}
+  />
+  <span>Code</span>
+</span>
           </h1>
 
           <p className="hero-in-3 mt-6 max-w-xl text-base leading-7 text-neutral-600 sm:mt-8 sm:text-lg sm:leading-8">
@@ -429,9 +437,9 @@ export default function LandingPage() {
           </div>
 
 
-          <div className="rotate-90 text-3xl font-light lg:rotate-0 lg:text-4xl">
-            →
-          </div>
+          <div className="rotate-90 lg:rotate-0">
+  <ArrowRight className="h-10 w-10 text-neutral-700" />
+</div>
 
 
 
