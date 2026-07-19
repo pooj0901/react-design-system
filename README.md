@@ -3,7 +3,7 @@ Design System — Component Library
 A production-ready design system built with React 18, Tailwind CSS, and Figma. 8 fully accessible components with design tokens, documentation, and real-world usage examples.
 
 
-Live Demo : "https://your-vercel-url.vercel.app"
+Live Demo : https://react-design-system-umber.vercel.app
 Figma File : "https://www.figma.com/design/q3ND2vCKyM6q9ckcTkCd1E/Design-Systems?t=3eeIRiZMSmXrxYRf-1"
 
 
@@ -57,45 +57,6 @@ npm run dev
 # Build for production
 npm run build
 ```
-
-
-
-## Project structure
-
-design-system/
-├── src/
-│   ├── tokens/
-│   │   └── index.js              # All design tokens as JS exports
-│   │
-│   ├── components/
-│   │   ├── Button/
-│   │   │   ├── Button.jsx        # Component
-│   │   │   └── index.js          # Barrel export
-│   │   ├── Input/
-│   │   ├── Checkbox/
-│   │   ├── Badge/
-│   │   ├── Card/
-│   │   ├── Modal/
-│   │   ├── Dropdown/
-│   │   ├── Table/
-│   │   └── index.js              # All component exports
-│   │
-│   ├── docs/
-│   │   ├── shared/
-│   │   │   ├── CodeBlock.jsx     # Syntax highlighted + copy button
-│   │   │   └── PropsTable.jsx    # API reference table
-│   │   ├── pages/
-│   │   │   ├── ButtonDocs.jsx
-│   │   │   ├── InputDocs.jsx
-│   │   │   └── ...               # One page per component
-│   │   └── Documentation.jsx     # Sidebar + layout shell
-│   │
-│   ├── index.css                 # Tailwind base + CSS variables
-│   └── main.jsx
-│
-├── tailwind.config.js            # Token values — single source of truth
-├── vite.config.js
-└── index.html
 
 
 
